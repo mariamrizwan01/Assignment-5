@@ -4,7 +4,7 @@ void main() {
     "age": "17",
     "grade": "B",
   };
-  print("StudentInformation:");
+  print("Student Information:");
   print("Name: ${StudentInfo['name']}");
   print("Age: ${StudentInfo['age']}");
   print("Grade: ${StudentInfo['grade']}");
