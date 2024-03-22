@@ -1,5 +1,5 @@
 void main() {
-  Map<String, int> Grocery = {
+  Map<String, int> GroceryItem = {
     "Veges": 700,
     "Chicken": 900,
     "Ketchup": 300,
@@ -9,9 +9,9 @@ void main() {
     "Egg": 150,
   };
 
-  print("Item         Price");
+  print("Grocery Item Prices : ");
   print("----------------------");
-  Grocery.forEach((item, price) {
-    print("$item Rs${price.toStringAsFixed(1)}");
+  GroceryItem.forEach((item, price) {
+    print("$item\t\tRs ${price.toStringAsFixed(1)}");
   });
 }
